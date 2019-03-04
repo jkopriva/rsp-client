@@ -16,6 +16,10 @@
             "ignore-same-line"
         ],
         "interface-over-type-literal": true,
+        "jsdoc-format": [
+        	true, 
+        	"check-multiline-start"
+        ],
         "new-parens": true,
         "no-consecutive-blank-lines": [
             true,
@@ -117,5 +121,6 @@
         ]
     },
     "rulesDirectory": "node_modules/tslint-eslint-rules/dist/rules",
-    "defaultSeverity": "warning"
+    "defaultSeverity": "warning",
+    "extends": ["tslint:recommended", "tslint-sonarts"]
 }
