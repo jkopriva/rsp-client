@@ -16,6 +16,12 @@ install:
 - npm install
 - npm run build
 
+addons:
+  sonarcloud:
+    token:
+      secure: $SONAR_TOKEN
+
 script:
 - npm test
 - npm run coverage:upload
+- npm run sonar
