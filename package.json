@@ -13,7 +13,7 @@
     "build": "rimraf lib && tslint -p tsconfig.json && tsc",
     "test": "nyc mocha",
     "coverage:upload": "codecov -f coverage/*.json",
-    "sonar": "sonar-scanner -Dsonar.projectVersion=$npm_package_version"
+    "sonar": "sonar-scanner"
   },
   "nyc": {
     "require": [

@@ -19,7 +19,7 @@ install:
 addons:
   sonarcloud:
     token:
-      secure: $SONAR_TOKEN
+      secure: "nEkPY2Cji5o3vgF3DWxLEy5dq+v1e4eNsKMmvGQL2p+OJK336SkUQrLHQArxYAQXQWFUeLECr7L1mTZD5MzJ9zDiFYCPQ6CUwKSLIJIXytaiz+AL+nRJuje3y7b7bR3dWjpuHpiNLCDf9ekR26y93NVgqvCWbTQozUIGYA9QOs9gbDh3y55hBOpQz5hn9ax2fqEQ3VZC8KAmnBkirPYx8tFnsdQk3+Mbq3hls+pWlTUCKt4FWravPLyZdnezApu2W948r4yzlT59UALu42g7/6tltmCAQgVLE+bLBi9H5B9/uv6kJZClgS8+KGp3/+llz2rnCKkxglt8jewsJATjR2K+JAl4qkjv/9NZP0fIYlfDUNOZVuhsrSNFJmYpZ7FhPE8TfFnGNuQkb6G0fgrapWRqLQ9mgU6qJcnCYNi073FUvtgAfWjbdwJJYpSjl6eXy/Lp2RcSUk9f3zUwvj3DBtsFIyn6+hd6WFe7vL6K+Px6ryF9s3EGdOPqvzpStGhtK8sqTQGCOPZvLe+BXqHlJR68Y976w3kxpLOSZWdziuvmBYyZRO7TZPf0uTIBazvnehKzxo5v9ODf1o0bgpM5RSVwVf+8sBp8iU6jytrKCX5IyLIOx6p5yYsNPd3Z/H5n72TfFgJFxoL+jDG4NxLmUxi5OZRUT2FU4N9chuxjgSI="
 
 script:
 - npm test
